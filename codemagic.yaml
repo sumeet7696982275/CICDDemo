@@ -1,6 +1,6 @@
 workflows:
   CICdDemo-worldflow:
-    name: CICdDemo Pipeline
+    name: CICdDemo
     scripts:
         - name: Started
           script: "Welcome to your CICD"
