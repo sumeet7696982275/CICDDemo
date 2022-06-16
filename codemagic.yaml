@@ -2,7 +2,7 @@ workflows:
   CICdDemo-worldflow:
     name: CICdDemo Pipeline
     scripts:
-        - name: CICdDemo Started
+        - name: Started
           script: "Welcome to your CICD"
         - name: Build CICdDemo
           script: xcodebuild build -workspace "CICdDemo.xcworkspace" -scheme "CICdDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
