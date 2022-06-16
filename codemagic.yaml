@@ -1,0 +1,10 @@
+workflows:
+    CICDDemo-workflows:
+    name: CICDDemo Pipeline
+    scripts:
+    - name: CICD started
+    scripts: echo "welcome to your CICD set up"
+    publishing:
+    email:
+    recipients:
+    - palsumeet@seasiainfotech.com
