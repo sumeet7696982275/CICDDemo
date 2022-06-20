@@ -6,8 +6,8 @@
 #          script: echo "Welcome to your CICD"
 #        - name: Build CICdDemo
 #          script: xcodebuild build -workspace "CICdDemo.xcworkspace" -scheme "CICdDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-#          
-#          
+#
+#
           
           
 workflows:
@@ -25,5 +25,5 @@ workflows:
             - name: Install CocoaPods dependencies
               script: pod install
             - name: Build ipa for distribution
-              script: xcodebuild build -workspace "CICdDemo" -scheme "CICdDemo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=15.2' -configuration Debug CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+              script: xcodebuild build -workspace "CICdDemo.xcworkspace" -scheme "CICdDemo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=15.2' -configuration Debug CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
  
