@@ -4,6 +4,7 @@ workflows:
     scripts:
         - name: Started
           script: echo "Welcome to your CICD"
+    scripts:
         - name: Build CICdDemo
           script: xcodebuild build -workspace "CICdDemo.xcworkspace" -scheme "CICdDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
  
