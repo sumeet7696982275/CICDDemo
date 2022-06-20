@@ -1,29 +1,11 @@
-#workflows:
-#  CICdDemo-worldflow:
-#    name: CICdDemo
-#    scripts:
-#        - name: Started
-#          script: echo "Welcome to your CICD"
-#        - name: Build CICdDemo
-#          script: xcodebuild build -workspace "CICdDemo.xcworkspace" -scheme "CICdDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-#
-#
-          
-          
 workflows:
-    simulator-native-ios:
-        name: iOS simulator build
-        max_build_duration: 120
-        instance_type: mac_mini
-        environment:
-            vars:
-               XCODE_WORKSPACE: "CICdDemo.xcworkspace" # <-- Put the name of your Xcode workspace here
-               XCODE_SCHEME: "CICdDemo" # <-- Put the name of your Xcode scheme here
-            xcode: 13.2.1
-            cocoapods: default
-        scripts:
-            - name: Install CocoaPods dependencies
-              script: pod install
-            - name: Build ipa for distribution
-              script: xcode-project build-ipa --project "CICdDemo.xcworkspace" --scheme "CICdDemo"
+  CICdDemo-worldflow:
+    name: CICdDemo
+    scripts:
+        - name: Started
+          script: echo "Welcome to your CICD"
+        - name: Build CICdDemo
+          script: xcodebuild build -workspace "CICdDemo.xcworkspace" -scheme "CICdDemo" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+          
+          
  
