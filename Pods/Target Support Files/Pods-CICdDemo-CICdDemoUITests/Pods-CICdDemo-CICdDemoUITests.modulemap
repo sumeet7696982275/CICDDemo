@@ -1,6 +1,0 @@
-framework module Pods_CICdDemo_CICdDemoUITests {
-  umbrella header "Pods-CICdDemo-CICdDemoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module Pods_CICdDemo {
-  umbrella header "Pods-CICdDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

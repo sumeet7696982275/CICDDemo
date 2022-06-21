@@ -1,16 +1,222 @@
 PODS:
-  - IQKeyboardManager (6.5.10)
+  - Alamofire (4.8.2)
+  - Cosmos (23.0.0)
+  - CountryPickerView (3.3.0)
+  - DropDown (2.3.13)
+  - Firebase/Auth (8.9.1):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.9.0)
+  - Firebase/CoreOnly (8.9.1):
+    - FirebaseCore (= 8.9.1)
+  - Firebase/Messaging (8.9.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.9.0)
+  - FirebaseAuth (8.9.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.6)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.9.1):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Logger (~> 7.6)
+  - FirebaseCoreDiagnostics (8.9.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Logger (~> 7.6)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.9.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/UserDefaults (~> 7.6)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.9.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.6)
+    - GoogleUtilities/Environment (~> 7.6)
+    - GoogleUtilities/Reachability (~> 7.6)
+    - GoogleUtilities/UserDefaults (~> 7.6)
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (5.2.0):
+    - GoogleMaps/Maps (= 5.2.0)
+  - GoogleMaps/Base (5.2.0)
+  - GoogleMaps/Maps (5.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (5.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.6.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.6.0)"
+  - GoogleUtilities/Reachability (7.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.6.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.0)
+  - HGRippleRadarView (0.1.2)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.9)
+  - JTMaterialSpinner (3.0.5)
+  - Kingfisher (7.1.1)
+  - KMPlaceholderTextView (1.4.0)
+  - lottie-ios (3.3.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ObjectMapper (3.5.3)
+  - ParallaxHeader (3.0.0)
+  - PromisesObjC (2.0.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SkeletonView (1.29.2)
+  - SkyFloatingLabelTextField (4.0.0)
+  - SnapKit (5.0.1)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
+  - SVPinView (1.0.11)
+  - SwiftMessages (9.0.5):
+    - SwiftMessages/App (= 9.0.5)
+  - SwiftMessages/App (9.0.5)
+  - SwiftyJSON (5.0.1)
+  - TableViewReloadAnimation (0.0.5)
+  - TPKeyboardAvoiding (1.3.5)
+  - ValidationTextField (1.0.4)
 
 DEPENDENCIES:
-  - IQKeyboardManager
+  - Alamofire (~> 4.8.2)
+  - Cosmos
+  - CountryPickerView
+  - DropDown
+  - Firebase/Auth
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - HGRippleRadarView
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - JTMaterialSpinner (~> 3.0)
+  - Kingfisher
+  - KMPlaceholderTextView
+  - lottie-ios
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.4)
+  - ParallaxHeader
+  - SDWebImage
+  - SkeletonView
+  - SkyFloatingLabelTextField
+  - SnapKit
+  - Socket.IO-Client-Swift
+  - SVPinView
+  - SwiftMessages
+  - SwiftyJSON
+  - TableViewReloadAnimation
+  - TPKeyboardAvoiding
+  - ValidationTextField
 
 SPEC REPOS:
   trunk:
-    - IQKeyboardManager
+    - Alamofire
+    - Cosmos
+    - CountryPickerView
+    - DropDown
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - HGRippleRadarView
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - JTMaterialSpinner
+    - Kingfisher
+    - KMPlaceholderTextView
+    - lottie-ios
+    - nanopb
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - ParallaxHeader
+    - PromisesObjC
+    - SDWebImage
+    - SkeletonView
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SVPinView
+    - SwiftMessages
+    - SwiftyJSON
+    - TableViewReloadAnimation
+    - TPKeyboardAvoiding
+    - ValidationTextField
 
 SPEC CHECKSUMS:
-  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Firebase: fb5114cd2bf96e2ff7bcb01d0d9a156cf5fd2f07
+  FirebaseAuth: 2b78b2a32c07b3ecfa4970bdf1d3632b8304099b
+  FirebaseCore: c5aab092d9c4b8efea894946166b04c9d9ef0e68
+  FirebaseCoreDiagnostics: 5daa63f1c1409d981a2d5007daa100b36eac6a34
+  FirebaseInstallations: caa7c8e0d3e2345b8829d2fa9ca1b4dfbf2fcc85
+  FirebaseMessaging: 82c4a48638f53f7b184f3cc9f6cd2cbe533ab316
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
+  GooglePlaces: c57cd5aa7e91d10fa5106c792de74f3bd6436260
+  GoogleUtilities: 684ee790a24f73ebb2d1d966e9711c203f2a4237
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  HGRippleRadarView: 5379e27634c09222ebc836671c7425ad7b257cc4
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  JTMaterialSpinner: 28a0444186b6b2df4206a77d12f7c9dcbe604958
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+  SwiftMessages: 9cca50659fa22bb523b4dd2a958d4442e843a354
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TableViewReloadAnimation: f3a4c4048efbc56331be98075f26a2e533a14c16
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+  ValidationTextField: 91bc04170ba4b4358912c372e12d7af4c9143ad5
 
-PODFILE CHECKSUM: 4af66320f32014ea4fb58a04dc561dad5dd28972
+PODFILE CHECKSUM: 579a291ba6a5eaaaaf3b590ab6666207a4538c2f
 
 COCOAPODS: 1.11.3

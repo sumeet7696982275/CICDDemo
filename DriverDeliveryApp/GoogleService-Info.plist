@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>500347455982-caro5gm0d7qqhg3m2hkd0ofi9o0hi9sv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.500347455982-caro5gm0d7qqhg3m2hkd0ofi9o0hi9sv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>500347455982-0p1v9gf6anahsc1jd1rt1lcveffa64mb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASa5306zUonm3k2Hy0qdLWIhEx6RgTsgw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>500347455982</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zigricart.cerebrumrider</string>
+	<key>PROJECT_ID</key>
+	<string>zigricart</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zigricart.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:500347455982:ios:918623610e76d6d94566ff</string>
+</dict>
+</plist>
