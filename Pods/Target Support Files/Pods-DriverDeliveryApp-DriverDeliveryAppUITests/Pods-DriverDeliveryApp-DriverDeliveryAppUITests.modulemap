@@ -1,6 +1,0 @@
-framework module Pods_DriverDeliveryApp_DriverDeliveryAppUITests {
-  umbrella header "Pods-DriverDeliveryApp-DriverDeliveryAppUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
